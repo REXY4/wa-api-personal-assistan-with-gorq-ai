@@ -1,4 +1,4 @@
-
+require("dotenv").config()
 const {runWhatsappClient, qrValue, sendMessage} = require("wa-api-with-personnal-assistant")
 const express = require("express");
 const app = express();
